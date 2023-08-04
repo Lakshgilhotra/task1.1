@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="PortfolioStyle (1).css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="https://www.google.com/">About</a></li>
+                <li><a href="https://www.google.com/">Home</a></li>
+                <li><a href="https://www.google.com/">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="Container">
+            <img src="846822ec703bb79d7c183f3aad9e2a3f.webp" alt="HeaderImage" class="image" >
+            <div class="Name">Hey, I'm Laksh</div>
+        </div><br><br>
+        <img src="1533828576_3262_150116_BC_Building_Burwod_01.jpg" alt="ProfilePic" class="ProfileImage" style="width: 150px">
+        <p class="Detail">I am a IT proffesional based in Melbourne, Australia</p>
+        <hr><br>
+        <p class="Done">Here's what I've done so far</p><br>
+        
+        <div class="Trucks-container" id="sharing">
+            <img src="unnamed.jpg"  alt="sharing" class="ProjectLogos" style="width: 260px; cursor: pointer;" onclick="LinktoGit('sharing')">
+            <p class="Truck">This Project is of Mobile Application, This name of the app that i created is uniconverter app
+            <br></p>
+        </div>
+        <br>
+        <div class="Truck-container" id="lost">
+            <img src="dc490270760483.5bade83ef28dd.jpg"  alt="sharing" class="ProjectLogos" style="width: 200px; cursor: pointer;" onclick="LinktoGit('lost')">
+            <p class="Truck">This Project is of Moible Application, This name of the app that i created is Lost and Found. 
+            <br> </p>
+        </div>
+        <br><br><br>
+        <div class="Truck-container">
+            <img src="unnamed.png" id="work" alt="workout" class="ProjectLogos" style="width: 200px; cursor: pointer;" onclick="LinktoGit('work')">
+            <p class="Truck">This Project is on Moible Application, This name of the app  is Workout Timer. 
+            <br> </p>
+        </div>
+        <br>
+        <div class="Truck-container">
+            <img src="360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg" id="quiz" alt="quiz" class="ProjectLogos" style="width: 200px; cursor: pointer;" onclick="LinktoGit('quiz')">
+            <p class="Truck">This Project is on Moible Application, This name of the app that  is Quiz. 
+            <br> .</p>
+        </div>
+        <script type = "text/JavaScript">
+            function LinktoGit(id)
+            {
+                const first=document.getElementById("converter");
+                const sec=document.getElementById("lost");
+                if(id=='converter')
+                {
+                    window.location.href="https://github.com/Lakshgilhotra/unitconverter1";
+                }
+                else if(id=='lost')
+                {
+                    window.location.href="https://github.com/Lakshgilhotra/lostfoundmap";
+                }
+                else if(id=='work')
+                {
+                    window.location.href="https://github.com/Lakshgilhotra/Workoutproject";
+                }
+                else if(id=='quiz')
+                {
+                    window.location.href="https://github.com/Lakshgilhotra/Lostandfoundandmap";
+                }
+                
+            }
+        </script>
+        <br><br>
+        <hr><br>
+        <p class="Detail">My Photos</p>
+        <div class="gallery_container">
+            <div class="Items">
+                <img src="deakin.jpg" alt="Image 1">
+            </div>
+            <div class="Items">
+                <img src="DRDX8JIX0AAozy1.jpg_large" alt="Image 2">
+            </div>
+            <div class="Items">
+                <img src="0_0_820_1_70__News_Deakin1BigHeader.jpg" alt="Image 3">
+            </div>
+            <div class="Items">
+                <img src="Deakin-University.webp" alt="Image 4">
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+.nav-list {
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 0px 20px;
+    text-align: left;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color:rgb(18, 223, 35);
+}
+  
+.nav-list li a:hover {
+    color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+.Container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+.image{
+    display: block;
+    width: 100%;
+    height: 1000px;
+}
+.Name{
+    position: absolute;
+    bottom: 5%;
+    background: rgba(220, 11, 11, 0.5);
+    width: 98%;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ProfileImage{
+    border-radius: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+hr{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    background: #99063a;
+    width: 10%;
+}
+.Detail{
+    position: relative;
+    color: #09b8f3;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+}
+.Done{
+    position: relative;
+    color: #2ABB9B;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.Trucks-container{
+    position: relative;
+    color: #2ABB9B;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+}
+.Trucks-container img{
+    margin-right: 0px;
+}
+
+.Truck-container{
+    position: relative;
+    color: #06f4c8;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+.Truck-container img{
+    margin-right: 10px;
+}
+.ProjectLogos{
+    border-radius: 20%;
+    margin-left: 42%;
+    margin-right: auto;
+    display: flex;
+}
+.gallery_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.Items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Items img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
